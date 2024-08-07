@@ -1,2 +1,2 @@
 # operant-conditioning-DRH
-Differential Reinforcement of Higher Rates of Behavior Analysis
+Differential Reinforcement of Higher Rates of Responding Analysis
