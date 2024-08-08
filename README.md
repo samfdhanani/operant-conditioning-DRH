@@ -1,14 +1,20 @@
 A massive thank you to Tala Sohrabi (@Talaa202) for teaching me and helping me write this code and to the Balsam-Simpson Lab at the New York State Psychiatric Institute for letting me borrow their Med Associate operant boxes!
 
 ## Differential Reinforcement of High Rate (DRH)
+
 ### Task Details
-In the Differential Reinforcement of Higher Rate (DRH) task, the mice are trained to make two lever presses within a specific time limit starting at 1s and decreasing by 0.2s every three sessions. Each session ends at 1 hour or 60 rewards
+
+In the Differential Reinforcement of Higher Rate (DRH) task, the mice are trained to make two lever presses within a specific time limit. We started with a time limit of 1 second and decreased this time by 0.2 seconds every three session until we reached 0.2 seconds as the time limit. Each session ends at 1 hour or 60 rewards
+
 ### Apparatus Information
+
 The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St. Albans, VT) and MedScripts were used to run the program (Ward et al., 2015).
 
 ### Script Outputs
 
-**DRL.py**
+**DRH.py**
+
+ ,'Accuracy 2s','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'all latency','plot'])
 
 - Date: date of session
 - Subject: subject number from the Med Associates data file
@@ -20,6 +26,14 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 - SessionTime: total session time
 - NumberOfRewards: number of rewards achieved
 - Lever Press: total number of lever presses
+- press <2s: total number of lever presses made under 2 seconds
+- press <1s: total number of lever presses made under 1 seconds
+- press <0.8s: total number of lever presses made under 0.8 seconds
+- press <0.6s: total number of lever presses made under 0.6 seconds
+- press <0.4s: total number of lever presses made under 0.4 seconds
+- press <0.2s: total number of lever presses made under 0.2 seconds
+
+- 
 - Rate: rate of lever presses per second
 - Reward Efficiency: presses per reward
 - Burst: lever press latencies less than or equal to 1 second
