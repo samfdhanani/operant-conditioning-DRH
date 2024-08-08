@@ -14,7 +14,7 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 
 **DRH.py**
 
- ,'Accuracy 2s','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'all latency','plot'])
+ ,'','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'all latency','plot'])
 
 - Date: date of session
 - Subject: subject number from the Med Associates data file
@@ -32,6 +32,7 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 - press <0.6s: total number of lever presses made under 0.6 seconds
 - press <0.4s: total number of lever presses made under 0.4 seconds
 - press <0.2s: total number of lever presses made under 0.2 seconds
+- Accuracy 2s: the number of lever presses made under 2s divided by the total number of lever presses within the session
 
 - 
 - Rate: rate of lever presses per second
