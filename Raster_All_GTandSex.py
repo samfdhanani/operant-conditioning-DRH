@@ -5,11 +5,11 @@ import math
 from matplotlib.backends.backend_pdf import PdfPages
 import os
 
-csv_file = "/Users/samdhanani/Desktop/MuhleLab/Operant_Data_Folders/CohF_social_trainingburst2-3s_030724.csv"
+csv_file = "/Users/samdhanani/Desktop/MuhleLab/Operant_Data_Folders/a csv file with the values you want to plot"
 date = "06-05-24"  # Specify the date you want to plot
 max_x_value = 2500 
 
-pdf_file_path = "/Users/samdhanani/Desktop/MuhleLab/CohF_RasterPlot/06-05-24.pdf"
+pdf_file_path = "/Users/samdhanani/Desktop/06-05-24.pdf"
 pdf_pages = PdfPages(pdf_file_path)
 
 with open(csv_file, 'r') as file:
