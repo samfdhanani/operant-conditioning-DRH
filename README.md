@@ -14,8 +14,6 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 
 **DRH.py**
 
- ,'','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'all latency','plot'])
-
 - Date: date of session
 - Subject: subject number from the Med Associates data file
 - Program: program name from the Med Associates data file
@@ -33,13 +31,15 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 - press <0.4s: total number of lever presses made under 0.4 seconds
 - press <0.2s: total number of lever presses made under 0.2 seconds
 - Accuracy 2s: the number of lever presses made under 2s divided by the total number of lever presses within the session
-
-- 
-- Rate: rate of lever presses per second
+- Accuracy 1s: the number of lever presses made under 1s divided by the total number of lever presses within the session
+- Accuracy 0.8s: the number of lever presses made under 0.8s divided by the total number of lever presses within the session
+- Accuracy 0.6s: the number of lever presses made under 0.6s divided by the total number of lever presses within the session
+- Accuracy 0.4s: the number of lever presses made under 0.4s divided by the total number of lever presses within the session
+- Accuracy 0.2s: the number of lever presses made under 0.2s divided by the total number of lever presses within the session
 - Reward Efficiency: presses per reward
-- Burst: lever press latencies less than or equal to 1 second
-- binned latencies: binned latencies from 0 to 1 second with a width of 0.1 seconds
+- Rate of Lever Press per Second: rate of lever presses per second
 - all latency: a list of all latencies in the program
+- plot: a list of the timestamps of latencies in seconds
 
 **BurstAnalysis.py**
 
