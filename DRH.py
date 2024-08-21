@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 filelist = []
 pathslist = []
 
-datapath = os.path.normpath("/Users/samdhanani/Dropbox/Muhle Lab/Mouse_files/Cohort F (operant)/DRH/Raw_Operant_Data/CohF_DRH") #add filepath here
+datapath = os.path.normpath("filepath to cohort folder") #add filepath here
 IDList = [1, 2, 3, 4] 
 # list of subject IDs as labelled in MED-PC
 
