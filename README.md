@@ -12,24 +12,25 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 
 ### Script Outputs
 
-**DRH.py**
+**DRH.py** 
 
 - Date: date of session
 - Subject: subject number from the Med Associates data file
 - Program: program name from the Med Associates data file
 - Genotype: assigns a value to the subject based on a list defined by the user
 - Sex: assigns a value to the subject based on a list defined by the user
-- FirstLatency: the first lever press can be made within any time interval and is excluded in the rest of the latency measures
-- AverageLatency: average latency between lever presses 
-- SessionTime: total session time
-- NumberOfRewards: number of rewards achieved
+- First Latency: the first lever press can be made within any time interval and is excluded in the rest of the latency measures
+- Average Latency: average latency between lever presses 
+- Session Time: total session time
+- Number Of Rewards: number of rewards achieved
+- Missed Headpokes: number of headpokes not made during dipper presentation
 - Lever Press: total number of lever presses
-- press <2s: total number of lever presses made under 2 seconds
-- press <1s: total number of lever presses made under 1 seconds
-- press <0.8s: total number of lever presses made under 0.8 seconds
-- press <0.6s: total number of lever presses made under 0.6 seconds
-- press <0.4s: total number of lever presses made under 0.4 seconds
-- press <0.2s: total number of lever presses made under 0.2 seconds
+- Presses <2s: total number of lever presses made under 2 seconds
+- Presses <1s: total number of lever presses made under 1 seconds
+- Presses <0.8s: total number of lever presses made under 0.8 seconds
+- Presses <0.6s: total number of lever presses made under 0.6 seconds
+- Presses <0.4s: total number of lever presses made under 0.4 seconds
+- Presses <0.2s: total number of lever presses made under 0.2 seconds
 - Accuracy 2s: the number of lever presses made under 2s divided by the total number of lever presses within the session
 - Accuracy 1s: the number of lever presses made under 1s divided by the total number of lever presses within the session
 - Accuracy 0.8s: the number of lever presses made under 0.8s divided by the total number of lever presses within the session
@@ -38,8 +39,8 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 - Accuracy 0.2s: the number of lever presses made under 0.2s divided by the total number of lever presses within the session
 - Reward Efficiency: presses per reward
 - Rate of Lever Press per Second: rate of lever presses per second
-- all latency: a list of all latencies in the program
-- plot: a list of the timestamps of latencies in seconds
+- All Latencies: a list of all latencies in the program
+- Raster Plot Values: a list of the timestamps of latencies in seconds
 
 **BurstAnalysis.py**
 
@@ -47,24 +48,24 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 - Subject: subject number from the Med Associates data file
 - Genotype: assigns a value to the subject based on a list defined by the user
 - Sex: assigns a value to the subject based on a list defined by the user
-- FirstLatency: the first lever press can be made within any time interval and is excluded in the rest of the latency measures
-- AverageLatency: average latency between lever presses 
-- SessionTIme: total session time
 - Program: program name from the Med Associates data file
-- NumberOfRewards: number of rewards achieved
-- no headpoke count: number of headpokes not made when a dipper was presented
-- Lever Press: total number of lever presses
-- Reward Rate: presses per reward
-- lever press no reward: lever presses made within the designated time interval
-- Rate (LP/SessTime): total lever presses divided by total session time
-- all latency: a list of all latencies in the program
-- plot: a list of the timestamps of latencies in seconds
-- bursts: list of latencies under a certain time defined by the user
-- number of bursts: number of bursts (defined as 2 or more presses under a time defined by a user)
-- burst sums: total amount of time in each burst group
-- average burst time: average of burst sums
-- sum of all bursts: total bursting time
-- average_burst_press_count: average presses in a burst
+- First Latency: the first lever press can be made within any time interval and is excluded in the rest of the latency measures
+- AveragevLatency: average latency between lever presses 
+- SessionvTIme: total session time
+- NumbervOfvRewards: number of rewards achieved
+- Headpokes Missed: number of headpokes not made when a dipper was presented
+- Lever Presses: total number of lever presses
+- Reward Efficiency: presses per reward
+- Lever Presses Made Without a Reward: lever presses made within the designated time interval
+- Lever Presses per Second: total lever presses divided by total session time
+- All Latencies: a list of all latencies in the program
+- Raster Plot Values: a list of the timestamps of latencies in seconds
+- Latencies Defined as a Burst: list of latencies under a certain time defined by the user
+- Number of Bursts: number of bursts (defined as 2 or more presses under a time defined by a user)
+- Individual Burst Sums: total amount of time in each burst group
+- Average Burst Length: average of burst sums
+- Sum of all Bursts: total bursting time
+- Avg Presses in a Burst: average presses in a burst
 
 **BurstAnalysisAVG.py**
 
