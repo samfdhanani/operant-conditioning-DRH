@@ -23,8 +23,7 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 - Average Latency: average latency between lever presses 
 - Session Time: total session time
 - Number Of Rewards: number of rewards achieved
-- Missed Headpokes: number of headpokes not made during dipper presentation
-- Lever Press: total number of lever presses
+- Headpokes Missed: number of times when there was no headpoke during dipper presentation- Lever Press: total number of lever presses
 - Presses <2s: total number of lever presses made under 2 seconds
 - Presses <1s: total number of lever presses made under 1 seconds
 - Presses <0.8s: total number of lever presses made under 0.8 seconds
@@ -53,8 +52,7 @@ The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St.
 - AveragevLatency: average latency between lever presses 
 - SessionvTIme: total session time
 - NumbervOfvRewards: number of rewards achieved
-- Headpokes Missed: number of headpokes not made when a dipper was presented
-- Lever Presses: total number of lever presses
+- Headpokes Missed: number of times when there was no headpoke during dipper presentation- Lever Presses: total number of lever presses
 - Reward Efficiency: presses per reward
 - Lever Presses Made Without a Reward: lever presses made within the designated time interval
 - Lever Presses per Second: total lever presses divided by total session time
