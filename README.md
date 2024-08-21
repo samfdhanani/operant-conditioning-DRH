@@ -1,4 +1,4 @@
-A massive thank you to Tala Sohrabi (@Talaa202) for teaching me and helping me write this code and to the Balsam-Simpson Lab at the New York State Psychiatric Institute for letting me borrow their Med Associate operant boxes!
+A massive thank you to Tala Sohrabi @Talaa202 for teaching me and helping me write this code and to the Balsam-Simpson Lab at the New York State Psychiatric Institute for letting me borrow their Med Associate operant boxes!
 
 ## Differential Reinforcement of High Rate (DRH)
 
