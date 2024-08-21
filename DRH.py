@@ -264,7 +264,7 @@ def sex(sub):
 df_ind = 0 # index variable, add one everytime we run through a subject
 
 # comment the line below when running the script for one day only 
-DRH_df = pd.DataFrame(columns = ['Date', 'Subject', 'Genotype', 'Sex', 'First Latency', 'Average Latency', 'Session Time', 'Program', 'Number Of Rewards', 'Missed Headpokes','Lever Press', 'Presses <2s','Presses <1s', 'Presses <0.8s', 'Presses <0.6s', 'Presses <0.4s','Presses <0.2s','Presses <0.1s','Accuracy 2s','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'All Latencies','Raster Plot Values'])
+DRH_df = pd.DataFrame(columns = ['Date', 'Subject', 'Program', 'Genotype', 'Sex', 'First Latency', 'Average Latency', 'Session Time', 'Number Of Rewards', 'Missed Headpokes','Lever Press', 'Presses <2s','Presses <1s', 'Presses <0.8s', 'Presses <0.6s', 'Presses <0.4s','Presses <0.2s','Presses <0.1s','Accuracy 2s','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'All Latencies','Raster Plot Values'])
 
 def new_func(session_type, ID, progline):
     sess_type = session_type(progline, ID)
@@ -280,7 +280,8 @@ for dirs in pathslist:
 
     date = os.path.basename(os.path.normpath(dirs))
     # uncomment the line below to analyze one specific day in the data
-    # DRH_df = pd.DataFrame(columns = ['Date', 'Subject', 'Genotype', 'Sex', 'First Latency', 'Average Latency', 'Session Time', 'Program', 'Number Of Rewards', 'Missed Headpokes','Lever Press', 'Presses <2s','Presses <1s', 'Presses <0.8s', 'Presses <0.6s', 'Presses <0.4s','Presses <0.2s','Presses <0.1s','Accuracy 2s','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'All Latencies','Raster Plot Values'])
+    # DRH_df = pd.DataFrame(columns = ['Date', 'Subject', 'Program', 'Genotype', 'Sex', 'First Latency', 'Average Latency', 'Session Time', 'Number Of Rewards', 'Missed Headpokes','Lever Press', 'Presses <2s','Presses <1s', 'Presses <0.8s', 'Presses <0.6s', 'Presses <0.4s','Presses <0.2s','Presses <0.1s','Accuracy 2s','Accuracy 1s', 'Accuracy 0.8s','Accuracy 0.6s', 'Accuracy 0.4s', 'Accuracy 0.2s', 'Accuracy 0.1s','Reward_Efficiency', 'Rate of Lever Press per Second', 'All Latencies','Raster Plot Values'])
+
     
     for ID in IDList: # run through ID list one by one, add 'Subject' to this to prevent confusion
         Full_ID = "Subject " + str(ID)
